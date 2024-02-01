@@ -60,6 +60,7 @@ header {
 
 .logo p {
     font-size: 43px;
+    font-weight: bold;
 }
 
 nav {
@@ -87,18 +88,18 @@ nav a:hover {
 }
 
 .work {
-    width: 30%; 
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 1.5%; 
+    width: 80%; 
+    margin: 0 auto; /* This will center the work containers */
+    padding: 20px; /* Adjust to your preference */
+    text-align: center; /* Center aligns the text */
+    border: none; /* Remove if you have any borders */
+    box-shadow: none; /* Remove if you have any shadows */
+    background: none;
 }
 
 .work img {
-    width: 80%;
+    max-width: 70%; /* This ensures images are responsive and fit their containers */
     height: auto;
-    margin-bottom: 10px;
 }
 
 .work h4, .work p {
@@ -109,10 +110,9 @@ nav a:hover {
 h1 {
     font-size: 59px; 
     margin-bottom: 50px; 
-    color: cornflowerblue;
-    text-shadow: 2px 2px 4px rgba(150, 150, 150, 0.5); 
+    color: black;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 70px;
 }
 
 .your-blue-box-class { 
@@ -126,13 +126,18 @@ h3, h4 {
 }
 
 .work h4 {
-    margin-bottom: 15px; 
-    margin-top: 20px;
+    font-size: 26px; /* Slightly larger title font size */
+    margin-bottom: 20px; /* Increased space between title and description */
+    color: #333; /* Adjust the color to fit your design */
+    margin-top: 10px;
 }
 
 .work p {
-    margin-top: 15px;
-    font-size: 20px;
+    font-size: 18px; /* Adjust your description font size as needed */
+    line-height: 1.6; /* Adjust line height for better readability */
+    color: #666; /* Adjust the color to fit your design */
+    margin-top: 0; /* Remove space above the paragraph */
+    margin-bottom: 20px;
 }
 
 .work button {

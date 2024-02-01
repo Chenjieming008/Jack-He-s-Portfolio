@@ -57,6 +57,7 @@ header {
 
 .logo p {
     font-size: 43px;
+    font-weight: bold;
 }
 
 nav {
@@ -335,9 +336,4 @@ h5 {
     text-align: center;
     color: lightseagreen;
     margin-left: 30px;
-}
-
-p {
-    color: whitesmoke;
-    font-family: 'Darker Grotesque', sans-serif;
 }

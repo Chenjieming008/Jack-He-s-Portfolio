@@ -19,7 +19,7 @@ nav a.active {
 
 
 body {
-    background-color: #f8f8f8;
+    background-color: whitesmoke;
 }
 
 header {
@@ -27,7 +27,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1% 5%;
-    background-color: white;
+    background-color: #f8f8f8;
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
 }
 
@@ -39,6 +39,7 @@ header {
 
 .logo p {
     font-size: 43px;
+    font-weight: bold;
 }
 
 nav {
@@ -77,7 +78,7 @@ nav a:hover {
 .main-container {
     width: 100%; 
     max-width: 1200px;
-    margin-top: 900px;
+    margin-top: 950px;
     font-size: large;
 }
 
@@ -97,15 +98,13 @@ nav a:hover {
     margin: 53px 0; 
     width: 315px; 
     height: 285px; 
-    border: 2px solid lightsalmon;
     border-radius: 10px;
 }
 
 .main-container h1 {
     font-size: 53px; 
     margin-bottom: 30px;
-    color: cornflowerblue; 
-    text-shadow: 2px 2px 4px rgba(150, 150, 150, 0.5); 
+    color: black; 
 }
 
 .main-button {

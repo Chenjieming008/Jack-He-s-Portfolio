@@ -59,6 +59,7 @@ header {
 
 .logo p {
     font-size: 43px;
+    font-weight: bold;
 }
 
 nav {
@@ -98,8 +99,7 @@ nav a:hover {
     font-size: 65px;
     margin-bottom: 30px;
     margin-top: -37px; 
-    color: cornflowerblue;
-    text-shadow: 2px 2px 4px rgba(150, 150, 150, 0.5); 
+    color: black;
 }
 
 .contact-info {
