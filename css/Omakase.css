@@ -15,7 +15,7 @@
 }
 
 body {
-    background-color: #979797;
+    background-color: #f8f8f8;
 }
 
 header {
@@ -27,6 +27,26 @@ header {
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
 }
 
+#back-to-top {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #ADD8E6; 
+    font-size: 2em;
+    padding: 10px 20px; 
+    display: none;
+    border-radius: 5px;
+    z-index: 9999;
+    border: none;
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+  }
+  
+  #back-to-top:hover {
+    background-color: #9AC0CD;
+  }
   
 .logo {
     display: flex;
@@ -59,165 +79,81 @@ nav a:hover {
 
 /* ------------------------------------------------------------------------------------------------- */
 
-.intro-section {
-    width: 100%; 
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-    min-height: 200px; 
-    padding: 20px 0; 
-  }
-  
-  .intro-section img {
-    margin-bottom: 40px;
-    margin-top: 40px;
-    max-width: 100%;
-    max-height: 100%; 
-    height: auto; 
-  }
-  
-
-  /* ------------------------------------------------------------------------------------------------- */
-
-.review-container {
-    text-align: Center; 
-    color: #8F2226;
-}
-
-.review-title {
-    font-size: 18px;
+.case-study {
+    font-family: 'Roboto', sans-serif; /* This matches your Google Fonts choice */
+    font-size: 20px;
+    line-height: 1.6;
     color: black;
-    text-align: center;
-}
-
-.download-button {
-    padding: 13px 37px;
-    background-color: #8F2226;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
-    display: inline-block; 
-}
-
-.download-button:hover {
-    background-color: lightcoral;
-}
-
-
-.project-details {
-    text-align: center;
-    max-width: 1500px; 
-    margin: 0 auto;
+    max-width: 800px;
+    margin: auto;
     padding: 20px;
 }
 
-.project-details h2 {
-    font-size: 33px; 
-    color: #DFC079;
-    margin-top: 50px;
-    margin-bottom: 10px;
-    font-weight: 300;
+.case-study h1, .case-study h2, .case-study h3, .case-study p, .case-study ul, .case-study li {
+    margin: 3px 0;
 }
 
-.project-details p {
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 21px; 
-    margin-bottom: 20px;
+.case-study h1 {
+    font-size: 20px;
     color: black;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
 }
 
-.container {
-    padding: 20px;
-}
-
-.section-separator {
-    height: 4px; 
-    background: transparent; 
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
-    margin-top: 120px;
-    margin-bottom: 120px;
-}
-
-
-h2 {
-    text-align: left;
+.case-study h2 {
+    font-size: 28px;
     color: lightseagreen;
-    margin-left: 20px;
+    border-bottom: 3px solid #eee;
+    padding-top: 32px;
+    padding-bottom: 1px;
 }
 
-h3 {
-    font-family: 'Playfair Display', serif;
-    text-align: center;
-    color: #F6DAA4;
-    font-weight: 300;
-    margin-top: 90px;
-    margin-bottom: 30px;
-    font-size: 53px;
-    font-style: normal;
-}
-
-h6 {
-    font-family: 'Playfair Display', serif;
-    text-align: center;
-    font-weight: 300;
-    margin-bottom: 30px;
-    font-size: 53px;
-    font-style: normal;
-}
-
-h5 {
-    font-family: 'Playfair Display', serif;
-    text-align: center;
-    color: #F6DAA4;
-    font-weight: 300;
-    margin-top: 40px;
-    margin-bottom: 70px;
-    font-size: 53px;
-    font-style: normal;
-}
-
-h4 {
-    text-align: center;
+.case-study h3 {
+    font-size: 20px;
+    padding-top: 30px;
     color: cornflowerblue;
-    margin-top: 90px;
-    margin-bottom: 30px;
-    font-size: 27px;
-    font-style: normal;
 }
 
-p {
-    text-align: left;
-    margin-left: 20px; 
+.case-study h4 {
+    font-size: 18px;
+    padding-top: 15px;
+    color: black;
 }
 
-.gallery-container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    padding: 20px;
+.case-study h5 {
+    font-size: 18px;
+    padding-top: 15px;
+    color: red;
 }
 
-.gallery-container img {
-    max-width: 100%;
-    height: auto;
-    margin: 10px;
+.case-study h6 {
+    font-size: 18px;
+    padding-top: 15px;
+    color: #14AE5C;
 }
 
-.picture-container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    padding: 20px;
+.case-study p, .case-study ul {
+    font-size: 16px;
+    padding-top: 10px;
 }
 
-.picture-container img {
-    max-width: 50%;
-    height: auto;
-    margin: 10px;
+.case-study ul {
+    list-style-type: square;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.case-study li {
+    list-style-type: disc;
+}
+
+/* If you have links within your case study, you might want to style them too */
+.case-study a {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+.case-study a:hover {
+    text-decoration: underline;
 }
 
 .picture-container1 {
@@ -234,122 +170,65 @@ p {
 }
 
 
-.work-container {
-    display: flex;
-    text-decoration: none;
-    justify-content: space-around; 
-    flex-wrap: nowrap; 
-}
+/* ------------------------------------------------------------------------------------------------- */
 
-.work {
-    width: 30%; 
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 1.5%; 
-}
-
-.work img {
-    width: 60%;
-    height: auto;
-    margin-bottom: 10px;
-}
-
-.work h4, .work p {
+.visual-evidence {
     text-align: center;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 
-
-h1 {
-    font-size: 59px; 
-    margin-bottom: 80px; 
-    color: white;
-    text-shadow: 2px 2px 4px rgba(150, 150, 150, 0.5); 
-    text-align: center;
-    margin-top: 50px;
-}
-
-.your-blue-box-class { 
-    margin-bottom: 50px; 
-}
-
-h3, {
-    font-size: 30px;
-    color: cornflowerblue;
-    text-shadow: 2px 2px 4px rgba(150, 150, 150, 0.5); 
-}
-
-.work h4 {
-    margin-bottom: 15px; 
-    margin-top: 20px;
-}
-
-.work p {
-    text-decoration-color: aqua;
-    margin-top: 15px;
-    font-size: 20px;
-}
-
-.work button {
-    padding: 15px 30px;
-    border: none;
-    border-radius: 15px;
-    background-color: #F8F8F8;
-    text-align: center;
-    font-size: 20px;
-    color: #333;  
+.zoom-img {
     cursor: pointer;
-    transition: background-color 0.3s ease;
-    outline: none; /* To remove the default outline/border that appears on click in some browsers */
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3); 
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
 }
 
-.work {
-    text-decoration: none;
-    width: 30%;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 15px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
     align-items: center;
-    margin: 0 1.5%;
-    border: 2px solid white; 
-    background-color: white; 
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
-    border-radius: 30px;
-    transition: transform 0.5s, opacity 0.5s;
-    position: relative;
-    z-index: 1;
-    margin-bottom: 80px;
+    justify-content: center;
+    display: flex;
 }
 
-.work:hover ~ .work {
-    opacity: 0.5;
-}
-
-.work:hover {
-    transform: scale(1.1); 
-    z-index: 2; 
-}
-
-.work-section:hover .work:not(:hover) {
-    opacity: 0.3;
-    transition: opacity 0.5s ease, transform 0.5s ease;
-}
-
-.work-section {
-    width: 100%;
-    margin: 20px auto;
-    text-align: center;
+.modal-content {
+    background: #fefefe;
+    margin: auto;
     padding: 20px;
-    background-color: F8F8F8;
-    border-radius: 10px;
-    margin-bottom: 50px; 
-    box-shadow: 0 20px 10px -15px rgba(0, 0, 0, 0.05); 
+    border: 1px solid #888;
+    width: 90%; /* Adjust this value as needed to make the modal larger */
+    max-width: none; /* Remove the max-width restriction */
+}
+
+.modal-content img {
+    max-width: 100%; /* Adjust this if you want to limit the maximum width */
+    max-height: 80vh; /* This will make the image take up 80% of the viewport height */
+    height: auto; /* This will maintain the aspect ratio */
+    display: block; /* Ensures no inline spacing issues */
+    margin: 0 auto; /* Centers image within modal-content */
 }
 
 
-p {
-    color: black;
+.close {
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    color: #000;
+    font-size: 30px;
+    text-decoration: none;
+    cursor: pointer;
 }
+

@@ -109,7 +109,7 @@ nav a:hover {
     flex-wrap: wrap; 
     gap: 20px; 
     max-width: 800px; 
-    margin: auto; 
+    margin-top: 80px;
 }
 
 .contact-item {
@@ -174,4 +174,10 @@ nav a:hover {
 .contact-item p {
     font-size: 1.2em; 
     margin-top: 10px; 
+}
+
+.linkedin-icon {
+    width: 100px; /* Adjust as needed */
+    height: 100px; /* Adjust as needed */
+    margin-top: 80px;
 }

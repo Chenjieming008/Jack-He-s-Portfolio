@@ -232,3 +232,41 @@ h3, h4 {
 a:hover {
     color: cornflowerblue; 
 }
+
+.app-proficiency {
+    color: lightseagreen;
+    font-size: 28px; 
+    margin-bottom: 20px;
+    font-size: 37px;
+    margin-top: 10px
+}
+
+.contact-section {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    height: 200px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.linkedin-icon {
+    width: 40px; /* Adjust as needed */
+    height: 40px; /* Adjust as needed */
+    margin-top: 5px; /* Adjust as needed */
+}
+
+.contact-section {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    height: 250px; /* Adjusted to accommodate LinkedIn icon */
+    margin-top: 20px;
+    font-size: 25px;
+}
